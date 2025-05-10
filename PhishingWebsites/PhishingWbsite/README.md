@@ -28,20 +28,3 @@ Bu proje, makine öğrenimi kullanarak URL'lerin oltalama (phishing) sitesi olup
    ```
 
 4. Tarayıcınızda [http://localhost:5000](http://localhost:5000) adresine gidin.
-
-## Kullanım
-
-1. Web arayüzündeki metin kutusuna kontrol etmek istediğiniz URL'yi girin.
-2. "Kontrol Et" düğmesine tıklayın.
-3. Sistem URL'yi analiz edecek ve sonucu gösterecektir.
-
-## Veri Seti
-
-Bu projede kullanılan veri seti, oltalama ve meşru URL'lerin çeşitli özelliklerini içermektedir. Veri seti 30 farklı özellik içerir ve her URL için "oltalama" veya "meşru" etiketleri bulunur.
-
-## Teknik Detaylar
-
-- **Backend**: Flask web çerçevesi
-- **Makine Öğrenimi**: Scikit-learn kütüphanesi, Random Forest algoritması
-- **Frontend**: HTML, CSS, JavaScript
-- **URL Analizi**: Python'un urllib, requests, BeautifulSoup kütüphaneleri 
